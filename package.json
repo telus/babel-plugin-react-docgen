@@ -29,6 +29,7 @@
     "clean": "rm -rf lib",
     "build": "babel src --out-dir lib",
     "test": "jest",
+    "install": "npm run build",
     "prepare": "npm run test && npm run clean && npm run build"
   },
   "keywords": [

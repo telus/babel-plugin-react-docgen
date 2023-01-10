@@ -1,17 +1,12 @@
 {
-  "version": "4.2.1",
-  "name": "babel-plugin-react-docgen",
+  "version": "4.3.0-alpha.4",
+  "name": "@telus-uds/babel-plugin-react-docgen",
   "description": "Babel plugin to add react-docgen info into your code",
   "repository": "https://github.com/storybooks/babel-plugin-react-docgen",
   "author": "Madushan Nishantha <j.l.madushan@gmail.com>",
-  "contributors": [
-    "Charles Lehnert"
-  ],
+  "contributors": ["Charles Lehnert"],
   "main": "lib/index.js",
-  "files": [
-    "*.md",
-    "lib/**/*"
-  ],
+  "files": ["*.md", "lib/**/*"],
   "devDependencies": {
     "@babel/cli": "^7.6.4",
     "@babel/core": "^7.6.4",
@@ -28,20 +23,13 @@
   "scripts": {
     "clean": "rm -rf lib",
     "build": "babel src --out-dir lib",
-    "test": "jest",
-    "install": "npm run build",
-    "prepare": "npm run test && npm run clean && npm run build"
+    "test": "jest"
   },
-  "keywords": [
-    "react",
-    "docs",
-    "docgen",
-    "babel-plugin"
-  ],
+  "keywords": ["react", "docs", "docgen", "babel-plugin"],
   "dependencies": {
     "ast-types": "^0.14.2",
     "lodash": "^4.17.15",
-    "react-docgen": "^6.0.0-alpha.0"
+    "react-docgen": "^6.0.0-alpha.4"
   },
   "license": "MIT"
 }

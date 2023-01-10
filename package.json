@@ -23,6 +23,7 @@
   "scripts": {
     "clean": "rm -rf lib",
     "build": "babel src --out-dir lib",
+    "install": "npm run build",
     "test": "jest"
   },
   "keywords": ["react", "docs", "docgen", "babel-plugin"],

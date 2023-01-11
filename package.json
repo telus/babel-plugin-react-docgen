@@ -1,5 +1,5 @@
 {
-  "version": "4.3.4-alpha.0",
+  "version": "4.3.5-alpha.0",
   "name": "@telus-uds/babel-plugin-react-docgen",
   "description": "Babel plugin to add react-docgen info into your code",
   "repository": "https://github.com/storybooks/babel-plugin-react-docgen",
